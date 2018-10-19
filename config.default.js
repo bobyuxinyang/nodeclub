@@ -10,13 +10,13 @@ var config = {
 
   get mini_assets() { return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
-  name: 'Nodeclub', // 社区名字
-  description: 'CNode：Node.js专业中文社区', // 社区的描述
-  keywords: 'nodejs, node, express, connect, socket.io',
+  name: 'XLPclub', // 社区名字
+  description: 'XLPclub：专门讨论XLP的技术社区', // 社区的描述
+  keywords: 'XLP',
 
   // 添加到 html head 中的信息
   site_headers: [
-    '<meta name="author" content="EDP@TAOBAO" />'
+    '<meta name="author" content="bobyuxinyang@XLP" />'
   ],
   site_logo: '/public/images/cnodejs_light.svg', // default is `name`
   site_icon: '/public/images/cnode_icon_32.png', // 默认没有 favicon, 这里填写网址
@@ -54,10 +54,10 @@ var config = {
 
   // RSS配置
   rss: {
-    title: 'CNode：Node.js专业中文社区',
-    link: 'http://cnodejs.org',
+    title: 'XLPclub：专门讨论XLP的技术社区',
+    link: 'http://dazhouzi.com',
     language: 'zh-cn',
-    description: 'CNode：Node.js专业中文社区',
+    description: 'XLPclub：专门讨论XLP的技术社区',
     //最多获取的RSS Item数量
     max_rss_items: 50
   },
