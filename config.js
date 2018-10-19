@@ -69,8 +69,8 @@ var config = {
     host: 'smtp.126.com',
     port: 25,
     auth: {
-      user: 'club@126.com',
-      pass: 'club'
+      user: 'xlp_senior@126.com',
+      pass: 'aaaa1111'
     },
     ignoreTLS: true,
   },
